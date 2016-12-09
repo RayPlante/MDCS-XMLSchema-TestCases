@@ -4,7 +4,7 @@
 
 **Current Status:**  :bangbang: open
 
-**Note:**  _It is still not clear the best way to test this test case.
+**Note:**  _It is still not clear the best way to test this test case._
 
 ## Versions and Flavors
 
