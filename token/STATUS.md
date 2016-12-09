@@ -1,7 +1,8 @@
 # Status of this Test Case
 
-**Test Case Name:** | token
-**Current Status:** | :white_check_mark: closed
+ **Test Case Name:**  token 
+ 
+ **Current Status:**  :white_check_mark: closed 
 
 ## Versions and Flavors
 
