@@ -4,9 +4,9 @@ Note: for Test Cases still in development, see the `proposed` branch.
 
 ## Open Test Cases
 
-* [subclass](subclass) -- choice menu is missing base class and subclass of subclass
-* [abstract](abstract) -- unclear due to [subclass](subclass)
-* [restrict](restrict) -- not working due to lack of support for subclass of subclass
+* [subclass](subclass) -- choice menu is missing subclass of subclass
+* [abstract](abstract) -- abstract apparently ignored
+* [restrict](restrict) -- not working due to lack of support for abstract and subclass of subclass
 
 ## Closed Test Cases
 
