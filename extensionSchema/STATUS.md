@@ -4,6 +4,8 @@
 
 **Current Status:**  :bangbang: open
 
+**Note:**  _It is still not clear the best way to test this test case.
+
 ## Versions and Flavors
 
 ### MDCS : master branch, 8 Dec 2016
