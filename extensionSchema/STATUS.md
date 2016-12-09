@@ -1,7 +1,8 @@
 # Status of this Test Case
 
-**Test Case Name:** | subclass
-**Current Status:** | :bangbang: open
+**Test Case Name:**  subclass
+
+**Current Status:**  :bangbang: open
 
 ## Versions and Flavors
 
@@ -28,4 +29,5 @@
     *  if a global element does not exist, it uses xsi:type to for an
        OTF root element based on a global type.
     *  Regardless of the existence of a global element, it does not
-       render type model correctly.  
+       render type model correctly.  It displays simply the global
+       element name and a text field.  
