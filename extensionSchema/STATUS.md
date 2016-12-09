@@ -26,8 +26,8 @@
        probably in order.
 
     *  import works when schemaLocation is a file: URL on the server.
-    *  if a global element does not exist, it uses xsi:type to for an
-       OTF root element based on a global type.
-    *  Regardless of the existence of a global element, it does not
-       render type model correctly.  It displays simply the global
-       element name and a text field.  
+  *  if a global element does not exist, it uses xsi:type to for an
+     OTF root element based on a global type.
+  *  Regardless of the existence of a global element, it does not
+     render type model correctly.  It displays simply the global
+     element name and a text field.  
