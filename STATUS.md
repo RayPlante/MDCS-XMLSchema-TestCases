@@ -8,5 +8,7 @@ n/a
 
 ## Closed Test Cases
 
-* token
+* token -- verified @RayPlante, 8 Dec 2016
+
+
 

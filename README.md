@@ -17,9 +17,9 @@ support of the pattern within the different versions and flavors
 
 A summary of the status of all the test cases can be found in the
 [STATUS.md](STATUS.md) file in this directory.  This lists which test
-cases are considered still open--that is, there are still problems
+cases are considered as still _open_--that is, there are still problems
 supporting the pattern in pertinent versions/flavors of MDCS--and
-those that are closed (where we are satisfied with the support in the
+those that are _closed_ (where we are satisfied with the support in the
 latest versions).
 
 ## Testing a Test Case
