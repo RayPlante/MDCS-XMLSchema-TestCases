@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MyLab xmlns="urn:mylab" 
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="urn:mylab mylab.xsd">
+  <title>An Test example</title>
+  <type> Grapefruit </type>
+</MyLab>
