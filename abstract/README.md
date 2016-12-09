@@ -28,7 +28,7 @@ ones.  See [restrict](../restrict) for an example.
 ## Run this Test
 
 1. Load [`labs-abseq.xsd`](labs-abseq.xsd) in as a template.
-2. Open up the new document form and inspect the form; ensure all
+2. Open up the new document form and inspect the form; ensure all non-abstract
    classes appear in the menu and the form updates properly for each
    type when chosen.
 3. Complete the form and inspect the output XML document (click on
