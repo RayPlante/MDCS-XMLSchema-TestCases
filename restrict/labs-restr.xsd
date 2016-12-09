@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema targetNamespace="urn:labs-restr"
+           xmlns:ex="urn:labs-restr"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           elementFormDefault="qualified">
+  <xs:element name="Lab" type="ex:LabSetup"/>
+
+  <xs:complexType name="LabSetup">
+    <xs:sequence>
+      <xs:element name="equipment" type="ex:Equipment" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="Equipment">
+    <xs:sequence>
+      <xs:element name="vendor" type="xs:token"/>
+      <xs:element name="model" type="xs:token"/>
+    </xs:sequence>
+    <xs:attribute name="type" type="xs:token"/>
+  </xs:complexType>
+
+  <xs:complexType name="_ElectronMicroscope" abstract="true">
+    <xs:complexContent>
+      <xs:restriction base="ex:Equipment">
+        <xs:sequence>
+          <xs:element name="vendor" type="xs:token"/>
+          <xs:element name="model" type="xs:token"/>
+        </xs:sequence>
+        <xs:attribute name="type" type="xs:token" default="electron microscope"/>
+      </xs:restriction>
+    </xs:complexContent>
+  </xs:complexType>
+
+  <xs:complexType name="ElectronMicroscope">
+    <xs:complexContent>
+      <xs:extension base="ex:_ElectronMicroscope">
+        <xs:sequence>
+          <xs:element name="magnification" type="xs:decimal"/>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+
+  <xs:complexType name="TunnellingElectronMicroscope">
+    <xs:complexContent>
+      <xs:extension base="ex:ElectronMicroscope">
+        <xs:sequence>
+          <xs:element name="voltage" type="xs:decimal"/>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+
+  <xs:complexType name="VacuumPump">
+    <xs:complexContent>
+      <xs:extension base="ex:Equipment">
+        <xs:sequence>
+          <xs:element name="pressure" type="xs:decimal"/>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+
+</xs:schema>
