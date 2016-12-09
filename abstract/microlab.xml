@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Lab xmlns="urn:labs-abseq"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="urn:labs-abseq labs-abseq.xsd">
+  
+  <equipment xsi:type="VacuumPump">
+    <vendor>Acme</vendor>
+    <model>Big Void</model>
+    <pressure> 0.001 </pressure>
+  </equipment>
+
+  <equipment xsi:type="ElectronMicroscope">
+    <vendor>Micro Heaven</vendor>
+    <model> x1440 </model>
+    <magnification> 1000.0 </magnification>
+  </equipment>
+</Lab>
