@@ -7,9 +7,12 @@
 
 ### MDCS : master branch, 8 Dec 2016
 
-*  Only `Equipment` and `VacuumPump` is offered as an option.  Given
-   that [abstract](../abstract) also fails and subclasses of
-   subclasses are not supported, this is not surprising.
+*  Only `Equipment` and `VacuumPump` is offered as an option.
+   * Given that [abstract](../abstract) also fails and subclasses of
+     subclasses are not supported, this is not surprising.
+   * Not clear why `_ElectronMicroscope` is not included if `abstract`
+     is ignored (see [abstract](../abstract)).
+     
 
 *  `genericlab.xml` loads fine; `microlab.xml` does not since needed
    subclasses are not available.
