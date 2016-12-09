@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Lab xmlns="urn:labs-restr"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="urn:labs-restr labs-restr.xsd">
+  
+  <equipment type="magnet">
+    <vendor>Acme</vendor>
+    <model>Big Horseshoe Magnet</model>
+  </equipment>
+
+  <equipment xsi:type="ElectronMicroscope" type="tem">
+    <vendor>Micro Heaven</vendor>
+    <model> x1440 </model>
+    <magnification> 1000.0 </magnification>
+  </equipment>
+</Lab>
