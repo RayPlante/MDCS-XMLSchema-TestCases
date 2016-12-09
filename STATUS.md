@@ -4,7 +4,7 @@ Note: for Test Cases still in development, see the `proposed` branch.
 
 ## Open Test Cases
 
-n/a
+* subclass -- choice menu is missing base class and subclass of subclass
 
 ## Closed Test Cases
 
