@@ -7,16 +7,10 @@
 
 ### MDCS : master branch, 8 Dec 2016
 
-*  Only VacuumPump is offered as an option.  
+*  Only `Equipment` and `VacuumPump` is offered as an option.  Given
+   that [abstract](../abstract) also fails and subclasses of
+   subclasses are not supported, this is not surprising.
 
-*  The behavior of [subclass](../subclass) and 
-   [abstract](../abstract) offer clues as to why only VacuumPump is
-   offered as a choice:
-   * [subclass](../subclass) shows that base classes are not being
-     offered
-   * [subclass](../subclass) also shows that subclasses of subclasses
-     are not offered
-   * while [abstract](../abstract) is ambiguous on its own, this test
-     suggests that abstract is being honored, since it is not being
-     offered.
+*  `genericlab.xml` loads fine; `microlab.xml` does not since needed
+   subclasses are not available.
 

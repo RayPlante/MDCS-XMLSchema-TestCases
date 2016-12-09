@@ -13,4 +13,11 @@
     <model> x1440 </model>
     <magnification> 1000.0 </magnification>
   </equipment>
+
+  <equipment xsi:type="TunnellingElectronMicroscope">
+    <vendor>Micro Heaven</vendor>
+    <model> x1445 </model>
+    <magnification> 1200.0 </magnification>
+    <voltage> 120 </voltage>
+  </equipment>
 </Lab>
