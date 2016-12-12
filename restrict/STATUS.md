@@ -1,7 +1,8 @@
 # Status of this Test Case
 
-**Test Case Name:** | subclass
-**Current Status:** | :bangbang: open
+**Test Case Name:**  subclass
+
+**Current Status:**  :bangbang: open
 
 ## Versions and Flavors
 
