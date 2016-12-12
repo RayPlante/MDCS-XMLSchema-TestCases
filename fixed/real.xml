@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MyLab xmlns="urn:labs-fixed" 
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="urn:labs-fixed labs-fixed.xsd">
+  <title>An Test example</title>
+  <type> real </type>
+</MyLab>
