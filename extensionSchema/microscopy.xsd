@@ -13,7 +13,9 @@
   <xs:import namespace="urn:experiments"/>
   -->
 
+<!--
   <xs:element name="MicroLab" type="ex:LabSetup"/>
+  -->
   
 
   <xs:complexType name="ElectronMicroscope">
