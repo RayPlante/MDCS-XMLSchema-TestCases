@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ex:Lab xmlns:ex="urn:experiments-uq" xmlns=""
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="urn:experiments-uq experiments.xsd">
+  <equipment>
+    <vendor>Acme</vendor>
+    <model>Big Horseshoe Magnet</model>
+  </equipment>
+</ex:Lab>
