@@ -10,8 +10,13 @@
 
 ## Versions and Flavors
 
-### MDCS : master branch, 8 Dec 2016
+### MDCS : version 1.4 release
 
 *  Equipment is included as a choice despite being marked abstract
 *  Subclass of subclass not included.
 *  Sample XML file loads correctly.
+
+### MDCS : master branch, 8 Dec 2016
+
+same as above.
+

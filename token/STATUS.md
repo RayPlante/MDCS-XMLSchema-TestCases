@@ -10,6 +10,10 @@
 
 * Verified: by @RayPlante, 8 Dec 2016
 
+### MDCS : version 1.4 release
+
+* Verified: by @RayPlante, 12 Dec 2016
+
 
 
 

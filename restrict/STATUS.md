@@ -6,7 +6,7 @@
 
 ## Versions and Flavors
 
-### MDCS : master branch, 8 Dec 2016
+### MDCS : version 1.4 release
 
 *  Only `Equipment` and `VacuumPump` is offered as an option.
    * Given that [abstract](../abstract) also fails and subclasses of
@@ -17,4 +17,10 @@
 
 *  `genericlab.xml` loads fine; `microlab.xml` does not since needed
    subclasses are not available.
+
+### MDCS : master branch, 8 Dec 2016
+
+same as above.
+
+
 

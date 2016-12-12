@@ -10,10 +10,15 @@
 
 ## Versions and Flavors
 
-### MDCS : master branch, 8 Dec 2016
+### MDCS : version 1.4 release
 
 *  Subclass of subclass not included (in this case,
    `TunnellingElectronMicroscope` is not included.
 *  Sample XML file, `genericlab.xml` loads fine
 *  Sample XML file, `microlab.xml` loads fine, apart from giving the
    TEM the wrong type and hiding the voltage.
+
+### MDCS : master branch, 8 Dec 2016
+
+same as above.
+
