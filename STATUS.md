@@ -9,6 +9,7 @@ Note: for Test Cases still in development, see the `proposed` branch.
 * [abstract](abstract) -- abstract apparently ignored
 * [restrict](restrict) -- not working due to lack of support for abstract and subclass of subclass
 * [extensionSchema](extensionSchema) -- choice menu does not appear
+* [unqualified](unqualified) -- same as extensionSchema
 
 ## Closed Test Cases
 
