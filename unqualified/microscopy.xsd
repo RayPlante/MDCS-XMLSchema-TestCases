@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xs:schema targetNamespace="urn:microscopy"
-           xmlns:mi="urn:microscopy"
-           xmlns:ex="urn:experiments"
+<xs:schema targetNamespace="urn:microscopy-uq"
+           xmlns:mi="urn:microscopy-uq"
+           xmlns:ex="urn:experiments-uq"
            xmlns:xs="http://www.w3.org/2001/XMLSchema"
-           elementFormDefault="qualified">
+           elementFormDefault="unqualified">
 
-  <xs:import namespace="urn:experiments"
+  <xs:import namespace="urn:experiments-uq"
              schemaLocation="file://mdcs/experiments.xsd"/>
 <!--
   <xs:import namespace="urn:experiments"
