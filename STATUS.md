@@ -8,6 +8,7 @@ Note: for Test Cases still in development, see the `proposed` branch.
 * [subclass](subclass) -- choice menu is missing subclass of subclass
 * [abstract](abstract) -- abstract apparently ignored
 * [restrict](restrict) -- not working due to lack of support for abstract and subclass of subclass
+* [extensionSchema](extensionSchema) -- choice menu does not appear
 
 ## Closed Test Cases
 

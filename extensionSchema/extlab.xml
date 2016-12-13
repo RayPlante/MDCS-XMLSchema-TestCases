@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Lab xmlns="urn:experiments"
+     xmlns:mi="urn:microscopy"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="urn:experiments experiments.xsd
+                         urn:microscopy microscopy.xsd">
+  <equipment>
+    <vendor>Acme</vendor>
+    <model>Big Horseshoe Magnet</model>
+  </equipment>
+
+  <equipment xsi:type="mi:ElectronMicroscope">
+    <vendor>Micro Heaven</vendor>
+    <model> x1440 </model>
+    <mi:magnification> 1000.0 </mi:magnification>
+  </equipment>
+</Lab>
